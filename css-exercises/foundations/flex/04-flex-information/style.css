@@ -17,6 +17,23 @@ img {
   font-weight: 900;
 }
 
+
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 52px;
+  flex: 1;
+}
+
+.element {
+  max-width: 200px;
+  text-align: center;
+}
+
+
+
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
@@ -28,15 +45,4 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
-}
-
-main {
-  display: flex;
-  justify-content: space-between;
-  gap: 52px;
-}
-
-.element {
-  max-width: 200px;
-  text-align: center;
 }
