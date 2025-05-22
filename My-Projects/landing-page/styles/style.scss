@@ -1,5 +1,5 @@
 body {
-    background-color: #2E2D2F;
+    background-color: #1F2937;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -71,24 +71,24 @@ body {
         margin-top: 0px;
     }
 
-    .buttonlink {
-        text-decoration: none;
-        color: #F9FAF8;
-        padding: 10px 40px;
-        color: #F9FAF8;
-        font-weight: 800;
-        background-color: #3882f6;
-        border-radius: 10px;
-        border: 0;
-        
-    }
 
-    .buttonlink:hover {
-            background-color: #5f92e6;
-
-    }
 }
 
+.buttonlink {
+    text-decoration: none;
+    padding: 10px 40px;
+    color: #F9FAF8;
+    font-weight: 800;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 0;
+    
+}
+
+.buttonlink:hover {
+        background-color: #5f92e6;
+
+}
 
 .s2 {
     background-color: white;
@@ -148,5 +148,39 @@ body {
     .author {
         align-self: flex-end;
         font-weight: 900;
+    }
+}
+
+
+.s4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+        padding: 50px;
+
+    .container {
+        border-radius: 10px;
+        padding: 10px 100px;
+        background-color: #3882f6;
+        display: flex;
+        flex-direction: row;
+        gap: 400px;
+        color: #F9FAF8;
+
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .buttonlink {
+        border: 1px solid white;
+    }
+}
+
+.text {
+
+    .headtext {
+        font-weight: 800;
     }
 }
