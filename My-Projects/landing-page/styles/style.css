@@ -1,6 +1,7 @@
 body {
   background-color: #1F2937;
   font-family: Roboto, sans-serif;
+  margin: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -15,6 +16,18 @@ body {
 .s1 .header-logo {
   font-size: 24px;
   color: #F9FAF8;
+  font-family: "Lobster", sans-serif;
+  text-shadow: 20px 5px 10px #3882f6;
+  transition: 0.2s all ease-in-out;
+}
+.s1 .header-logo a {
+  color: #E5E7EB;
+  transition: 0.2s all ease-in-out;
+  text-decoration: none;
+}
+.s1 .header-logo a:hover {
+  font-size: 25px;
+  color: #5e00aa !important;
 }
 .s1 .links {
   display: flex;
@@ -74,6 +87,8 @@ body {
 .s2 {
   background-color: white;
   padding: 10px 200px 100px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -130,6 +145,8 @@ body {
   align-items: center;
   background-color: white;
   padding: 50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .s4 .container {
   border-radius: 10px;
