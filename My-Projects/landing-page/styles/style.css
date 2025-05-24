@@ -53,6 +53,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 20px;
+}
+.s1 .photo img {
+  border-radius: 20px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .hero .hero-main {
@@ -105,8 +112,6 @@ body {
 .s2 .image {
   height: 200px;
   width: 200px;
-  border: 2px solid #3882f6;
-  border-radius: 10px;
   margin: 20px;
   display: flex;
   align-items: center;
@@ -173,4 +178,36 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+figure {
+  transition: 0.2s all ease-in-out;
+  position: relative;
+}
+figure img {
+  transition: 0.2s all ease-in-out;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+}
+figure img:hover {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+  border: 2px solid #3882f6;
+  filter: brightness(25%);
+}
+
+figure figcaption {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.2s all ease-in-out;
+  color: white;
+  text-align: center;
+}
+
+figure:hover figcaption {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
