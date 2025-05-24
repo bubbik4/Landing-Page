@@ -148,4 +148,12 @@ body {
 
 .text .headtext {
   font-weight: 800;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
